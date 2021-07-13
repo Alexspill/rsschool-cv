@@ -1,10 +1,10 @@
-# Alexander Kunitsyn #
+`` Alexander Kunitsyn ``
 ---
 ## PERSONAL INFORMATION: ##
 ### Age: 42 ###
-### ADDRESS: Russia, Ekaterinburg city. ###
-### *Mobile:* +7-922-125-6-521 ###
-### *e-mail:* almi78@mail.ru ###
+#### ADDRESS: Russia, Ekaterinburg city. ####
+#### *Mobile:* +7-922-125-6-521 ####
+#### *e-mail:* almi78@mail.ru ####
 ---
 ## OBJECTIVE: ##
 ### FRONTEND DEVELOPER (Junior) ###
@@ -21,6 +21,7 @@
 #### Server systems, networks, banking equipment, working with users ####
 ---
 ## CODE EXAMPLES ##
+
 ``` https://www.codewars.com/kata/5aba780a6a176b029800041c/solutions/javascript ```
 
 ```  function maxMultiple(divisor, bound){ ```

@@ -1,31 +1,83 @@
 * {
     font-family : 'sans-serif';
-}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
-header {
-    height: 60px;
-    width: 680px;
-    background-color: coral;
-    position: relative;
-    bottom: 20px;
-    right: 30px;
-
-}
-
-header h1 {
-    padding-left: 30px;
-    padding-top: 10px;
 }
 
 body {
     background-color : #dfc3cc;
+    height: 100vh;
+    /* max-height: fit-content;
+    padding-left: 30px;
+    padding-bottom: 15px; */
+}
+
+.body-wrapper {
     border: 1px solid black;
     max-width: 650px;
-    max-height: fit-content;
-    padding-left: 30px;
-    padding-bottom: 15px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
 }
+
+header {
+    height: 60px;
+    /* width: 680px; */
+    background-color: coral;
+    /* position: relative; */
+    /* bottom: 20px;
+    right: 30px; */
+    padding: 5px 10px;
+}
+
+.main-wrapper {
+    display: flex;
+    flex: 1;
+    padding: 20px 20px 20px 10px;
+
+}
+
+.main {
+    max-width: 60%;
+
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: indigo;
+    padding: 10px 0;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.main-section {
+    border-bottom: 1px solid gray;
+    padding-bottom: 8px;
+}
+
+.main-text {
+    line-height: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: oblique;
+
+}
+
+.code {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(65, 66, 68);
+    font-size: 14px;
+}
+
+
+/* .aside {
+
+} */
 
 .personal_info {
     color : darkblue;
@@ -35,21 +87,22 @@ body {
 
 footer {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     flex-wrap: nowrap;
-    align-content: space-around;
-    justify-content: center;
+    align-items: center;
+    /* align-content: space-around; */
+    justify-content: space-between;
+    padding: 8px 10px;
+
+    background-color: rgb(128, 128, 128, 0.5);
 }
 
-footer div {
-    height: 100%;
-    padding: 0px;
-    margin: auto;
+.footer-element {
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .logo {
     width: 100px;
-    height: 100%;
-    margin: auto;
-    margin-left: 0px;
 }

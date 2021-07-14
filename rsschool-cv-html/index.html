@@ -1,8 +1,92 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>My CV with CSS</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
   </head>
-  <body>Страница</body>
+
+  <body>
+
+    <header>
+      <h1>Alexander Kunitsyn</h1>
+    </header>
+  
+    <main>
+
+      <article>
+
+        <section class="personal_info">
+          <h2>Personal Information</h2>
+          <h3>Age: 42</h3>
+          <h4>ADDRESS: Russia, Ekaterinburg city.</h4>
+          <h4>Mobile: +7-922-125-6-521</h4>
+          <h4>e-mail: almi78@mail.ru</h4>
+        </section>
+
+        <section class="objective">
+          <h2>Objective</h2>
+          <h3>FRONTEND DEVELOPER (Junior)</h3>
+        </section>
+
+        <section class="skills">
+          <h2>Skills</h2>
+          <h3>Positive, hardworking IT-specialist with a lot of talents</h3>
+          <h3>HTML/CSS(beginner), JS (beginner), GIT (beginner), Photoshop(beginner)</h3>
+        </section>
+
+        <section class="education">
+          <h2>Education</h2>
+          <h3>URFU (Ekaterinburg) - Systems&Networks (1999-2004)</h3>
+        </section>
+
+        <section class="work_experience">
+          <h2>Work Experience</h2>
+          <h3>Last 13 year working IT-specialist in banking sphere.</h3>
+          <h3>Server systems, networks, banking equipment, working with users</h3>
+        </section>
+
+        <section class="additional_info">
+          <h2>Additional Information</h2>
+          <h3>English - Intermediate</h3>
+        </section>
+
+        <section class="code_example">
+          <h2>Code example</h2>
+          <h3>
+            <details>
+              
+              <summary>
+                Code Example on <a href="https://www.codewars.com/kata/5aba780a6a176b029800041c/solutions/javascript" target="blank">CodeWars</a>
+              </summary>
+      
+              function maxMultiple(divisor, bound){ <br>
+              for (let i = bound; i>0; i--) { <br>
+              if (i % divisor == 0) return i; } }
+              </code>
+      
+            </details>
+
+          </h3>
+
+        </section>
+
+      </article>
+      
+    </main>
+
+    <footer >
+
+      <div class="logo"><a href="https://rs.school/js/" target="blank"><img src="https://rs.school/images/rs_school_js.svg"></a></div>
+      <div><a href="https://github.com/Alexspill/alexspill.github.io" target="blank">My GIT</a></div>
+      <div>&#169 2021</div>
+
+    </footer>
+
+    <!-- в footer необходимо добавить ссылку на ваш гитхаб, год создания приложения, логотип курса со ссылкой на курс -->
+
+
+
+  </body>
+
 </html>

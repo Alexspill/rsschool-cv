@@ -1,0 +1,35 @@
+* {
+    font-family : 'Courier New', Courier, monospace;
+}
+body {
+    background-color : #dfc3cc;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.personal_info {
+    color : darkblue;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: center;
+}
+
+footer div {
+    height: 100%;
+    border: 1px solid blue;
+    padding: 0px;
+    margin: auto;
+}
+
+.logo {
+    width: 100px;
+    height: 100%;
+    border: 1px solid blue;
+    margin: auto;
+    margin-left: 0px;
+}

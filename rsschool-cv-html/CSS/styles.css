@@ -1,15 +1,37 @@
 * {
-    font-family : 'Courier New', Courier, monospace;
+    font-family : 'sans-serif';
 }
+
+header {
+    height: 60px;
+    width: 680px;
+    background-color: coral;
+    position: relative;
+    bottom: 20px;
+    right: 30px;
+
+}
+
+header h1 {
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
 body {
     background-color : #dfc3cc;
-    width: max-content;
+    border: 1px solid black;
+    max-width: 650px;
+    max-height: fit-content;
+    padding-left: 30px;
+    padding-bottom: 15px;
     margin: 0 auto;
 }
 
 .personal_info {
     color : darkblue;
+    padding-top: 0;
 }
+
 
 footer {
     display: flex;
@@ -21,7 +43,6 @@ footer {
 
 footer div {
     height: 100%;
-    border: 1px solid blue;
     padding: 0px;
     margin: auto;
 }
@@ -29,7 +50,6 @@ footer div {
 .logo {
     width: 100px;
     height: 100%;
-    border: 1px solid blue;
     margin: auto;
     margin-left: 0px;
 }

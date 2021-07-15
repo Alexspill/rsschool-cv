@@ -13,30 +13,43 @@
       <h1>Alexander Kunitsyn</h1>
     </header>
     <div class="main-wrapper">
+
       <aside class="aside">
         <div class="image-container">
-          <img class="image" src="./images/" alt="main photo">
+          <img class="image" src="./images/cvphoto.png" alt="main photo">
         </div>
         <section class="personal_info">
+
           <h2>Personal Information</h2>
-          <h3>Age: 42</h3>
-          <h4>ADDRESS: Russia, Ekaterinburg city.</h4>
-          <h4>Mobile: +7-922-125-6-521</h4>
-          <h4>e-mail: almi78@mail.ru</h4>
+          <ul>
+          <li><h3>Age: 42</h3></li>
+          <li><h4>ADDRESS: Russia, Ekaterinburg city.</h4></li>
+          <li><h4>Mobile: +7-922-125-6-521</h4></li>
+          <li><h4>e-mail: almi78@mail.ru</h4></li>
+        </ul>
         </section>
 
       </aside>
+      <div class="center-line">
+
+      </div>
       <main class="main">
 
 
           <section class="main-section">
             <h2 class="section-title">Objective</h2>
-            <h3 class="main-text">FRONTEND DEVELOPER (Junior)</h3>
+            <h3 class="main-text"><b>FRONTEND DEVELOPER (Junior)</b></h3>
           </section>
 
           <section class="main-section">
             <h2 class="section-title">Skills</h2>
-            <h3 class="main-text">Positive, hardworking IT-specialist with a lot of talents HTML/CSS(beginner), JS (beginner), GIT (beginner), Photoshop(beginner)</h3>
+            <h3 class="main-text">Positive, hardworking IT-specialist with a lot of talents and skills: </h3>
+            <ul class="talents-list">
+              <li>HTML/CSS(beginner)</li>
+              <li>JS (beginner)</li>
+              <li>GIT (beginner)</li>
+              <li>Photoshop(beginner)</li>
+            </ul>
           </section>
 
           <section class="main-section">
@@ -58,12 +71,14 @@
             <h2 class="section-title">Code example</h2>
               <details>
                 <summary>
-                  Code Example on <a href="https://www.codewars.com/kata/5aba780a6a176b029800041c/solutions/javascript" target="blank">CodeWars</a>
+                  Code Example on <a href="https://www.codewars.com/kata/52597aa56021e91c93000cb0/solutions/javascript" target="blank">CodeWars</a>
                 </summary>
                 <code class="code">
-                  function maxMultiple(divisor, bound){ <br>
-                  for (let i = bound; i>0; i--) { <br>
-                  if (i % divisor == 0) return i; } }
+                  var moveZeros = function (arr) { <br>
+                  const numbers = arr.filter(n => n !== 0);<br>
+                  const zeros = arr.filter(n => n === 0);<br>
+                  return numbers.concat(zeros);}
+
                 </code>
               </details>
           </section>
@@ -78,9 +93,6 @@
       <div class="footer-element">&#169 2021</div>
 
     </footer>
-
-    <!-- в footer необходимо добавить ссылку на ваш гитхаб, год создания приложения, логотип курса со ссылкой на курс -->
-
 
       
   </div>

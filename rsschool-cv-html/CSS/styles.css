@@ -90,6 +90,11 @@ h1 {
     padding-top: 0;
 }
 
+.personal_info span {
+    font-weight: 800;
+    font-size: larger;
+    text-decoration-color: green;
+}
 
 footer {
     display: flex;
@@ -116,7 +121,7 @@ footer {
 .center-line {
     padding: 0px;
     width : 1px;
-    height: 87%;
+    height: 90%;
     border: 1px solid #693838;
     margin-right: 5px;
 }

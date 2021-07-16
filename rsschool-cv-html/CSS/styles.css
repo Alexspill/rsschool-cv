@@ -1,5 +1,5 @@
 * {
-    font-family : 'sans-serif';
+    font-family : Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,12 +15,12 @@ body {
 }
 
 .body-wrapper {
-    border: 1px solid black;
+    border: 1px solid #000000;
     max-width: 650px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: fit-content;
 
 }
 
@@ -61,7 +61,7 @@ h1 {
 }
 
 .main-section {
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #808080;
     padding-bottom: 8px;
 }
 
@@ -75,7 +75,7 @@ h1 {
 
 .code {
     font-family: monospace, 'Arial', 'Arial Narrow Bold', sans-serif;
-    color: rgb(65, 66, 68);
+    color: #414244;
     font-size: 14px;
     font-weight: 600;
 }
@@ -90,11 +90,22 @@ h1 {
     padding-top: 0;
 }
 
-.personal_info span {
-    font-weight: 800;
-    font-size: larger;
-    text-decoration-color: green;
+.personal_info li {
+    margin-bottom: 10px;
 }
+
+.span {
+    font-weight: 700;
+    font-size: large;
+}
+
+.cat-container {
+    
+}
+
+
+
+
 
 footer {
     display: flex;
@@ -105,7 +116,7 @@ footer {
     justify-content: space-between;
     padding: 8px 10px;
 
-    background-color: rgb(128, 128, 128, 0.5);
+    background-color: #80808080;
 }
 
 .footer-element {
@@ -121,7 +132,7 @@ footer {
 .center-line {
     padding: 0px;
     width : 1px;
-    height: 90%;
+    height: 720px;
     border: 1px solid #693838;
     margin-right: 5px;
 }

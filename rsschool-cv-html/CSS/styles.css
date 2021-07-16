@@ -3,15 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
     background-color : #dfc3cc;
     height: 100vh;
-    /* max-height: fit-content;
-    padding-left: 30px;
-    padding-bottom: 15px; */
 }
 
 .body-wrapper {
@@ -21,21 +17,15 @@ body {
     display: flex;
     flex-direction: column;
     height: fit-content;
-
 }
 
 header {
     height: 60px;
-    /* width: 680px; */
     background-color: #e7b09c;
-    /* position: relative; */
-    /* bottom: 20px;
-    right: 30px; */
     padding: 5px 10px;
 }
 
 h1 {
-    /* text-align: center; */
     font-size: 40px;
 }
 
@@ -43,12 +33,10 @@ h1 {
     display: flex;
     flex: 1;
     padding: 20px 20px 20px 10px;
-
 }
 
 .main {
     max-width: 60%;
-
 }
 
 .section-title {
@@ -70,7 +58,6 @@ h1 {
     font-size: 17px;
     font-weight: 400;
     font-style: inherit;
-
 }
 
 .code {
@@ -79,11 +66,6 @@ h1 {
     font-size: 14px;
     font-weight: 600;
 }
-
-
-/* .aside {
-
-} */
 
 .personal_info {
     color: #0f313d;
@@ -99,23 +81,12 @@ h1 {
     font-size: large;
 }
 
-.cat-container {
-    
-}
-
-
-
-
-
 footer {
     display: flex;
-    /* flex-direction: row; */
     flex-wrap: nowrap;
     align-items: center;
-    /* align-content: space-around; */
     justify-content: space-between;
     padding: 8px 10px;
-
     background-color: #80808080;
 }
 
@@ -140,7 +111,6 @@ footer {
 .image {
     height: 220px;
     width: 220px;
-
 }
 
 ul {

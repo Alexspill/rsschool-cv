@@ -42,7 +42,7 @@ h1 {
 .section-title {
     font-size: 20px;
     font-weight: 600;
-    color: indigo;
+    color: #4b0082;
     padding: 10px 0;
     text-decoration: underline;
     text-transform: uppercase;
@@ -51,6 +51,7 @@ h1 {
 .main-section {
     border-bottom: 1px solid #808080;
     padding-bottom: 8px;
+    padding-left: 15px;
 }
 
 .main-text {
@@ -78,7 +79,7 @@ h1 {
 
 .span {
     font-weight: 700;
-    font-size: large;
+    font-size: normal;
 }
 
 footer {
@@ -103,7 +104,7 @@ footer {
 .center-line {
     padding: 0px;
     width : 1px;
-    height: 720px;
+    height: 725px;
     border: 1px solid #693838;
     margin-right: 5px;
 }

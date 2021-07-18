@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My CV with CSS</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+  </head>
+
+  <body>
+
+    <div class="body-wrapper">
+
+    <header >
+      <h1>Alexander Kunitsyn</h1>
+    </header>
+
+    <div class="main-wrapper">
+
+      <aside class="aside">
+
+        <div class="image-container">
+          <img class="image" src="./images/cvphoto.png" alt="main avatar">
+        </div>
+
+        <section class="personal_info">
+
+          <h2>Personal Information</h2>
+
+          <ul>
+            <li><h4><span class="span">Age:</span> 42</h4></li>
+            <li><h4><span class="span">Tel:</span> +7-922-125-6-521</h4></li>
+            <li><h4><span class="span">E-mail:</span> almi78@mail.ru</h4></li>
+            <li><h4><span class="span">Address:</span> Russia, Ekaterinburg.</h4></li>
+          </ul>
+
+        </section>
+
+      </aside>
+
+      <div class="center-line">
+      </div>
+
+      <main class="main">
+
+        <section class="main-section">
+          <h2 class="section-title">Objective</h2>
+          <h3 class="main-text"><b>FRONTEND DEVELOPER (Junior)</b></h3>
+        </section>
+
+        <section class="main-section">
+          <h2 class="section-title">Skills</h2>
+          <h3 class="main-text">Positive, hardworking IT-specialist with a lot of talents and skills: </h3>
+
+          <ul class="talents-list">
+            <li>HTML/CSS(beginner)</li>
+            <li>JS (beginner)</li>
+            <li>GIT (beginner)</li>
+            <li>Photoshop(beginner)</li>
+          </ul>
+
+        </section>
+
+          <section class="main-section">
+            <h2 class="section-title">Education</h2>
+            <h3 class="main-text">URFU (Ekaterinburg) - Systems&Networks (1999-2004)</h3>
+          </section>
+
+          <section class="main-section">
+            <h2 class="section-title">Work Experience</h2>
+            <h3 class="main-text">Last 13 year working IT-specialist in banking sphere. Server systems, networks, banking equipment, working with users</h3>
+          </section>
+
+          <section class="main-section">
+            <h2 class="section-title">Additional Information</h2>
+            <h3 class="main-text">English - Intermediate</h3>
+          </section>
+
+          <section class="main-section">
+
+          <h2 class="section-title">Code example</h2>
+
+            <details>
+
+              <summary>
+                Code Example on <a href="https://www.codewars.com/kata/52597aa56021e91c93000cb0/solutions/javascript" target="blank">CodeWars</a>
+              </summary>
+
+              <code class="code">
+                var moveZeros = function (arr) { <br>
+                const numbers = arr.filter(n => n !== 0);<br>
+                const zeros = arr.filter(n => n === 0);<br>
+                return numbers.concat(zeros);}
+              </code>
+
+            </details>
+              
+          </section>        
+
+      </main>
+
+    </div>
+
+    <footer >
+
+      <div class="footer-element"><a href="https://rs.school/js/" target="blank"><img class="logo" src="https://rs.school/images/rs_school_js.svg" alt="logo"></a></div>
+      <div class="footer-element"><a href="https://github.com/Alexspill/alexspill.github.io" target="blank">My GIT</a></div>
+      <div class="footer-element">&#169; 2021</div>
+
+    </footer>
+    
+  </div>
+  
+  </body>
+
+</html>

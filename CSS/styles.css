@@ -29,6 +29,11 @@ h1 {
     font-size: 40px;
 }
 
+h5 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
 .main-wrapper {
     display: flex;
     flex: 1;
@@ -62,7 +67,7 @@ h1 {
 }
 
 .code {
-    font-family: monospace, 'Arial', 'Arial Narrow Bold', sans-serif;
+    font-family: monospace;
     color: #414244;
     font-size: 14px;
     font-weight: 600;
